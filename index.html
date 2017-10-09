@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link href="styles/style.css" rel="stylesheet">
+	<!--#include virtual="mail.php" -->
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header_content">
+				<!--Слайдер-->
+				<div class="container col-md-12 slider">
+					<div class="row 1">
+						<div class="single-item col-md-12">
+							<!-- Содержимое слайдов -->
+							 <div><img src="images/slider/1.png" alt="..."></div>
+							<div><img src="images/slider/1.png" alt="..."></div>
+							<div><img src="images/slider/1.png" alt="...">
+							</div>						
+						</div>
+
+						<div class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+
+						<!--Контакты-->
+						<div class="contacts">
+							<p>Адрес <br>
+								Телефон</p>
+						</div>
+						<!--Запись на прием-->
+						<div class="sign_up_to_the_doc">
+							<form method="POST" action="mail.php">
+								<div class="pen"><img src="images/pen.png" alt=""></div>
+								<input type="text" class="name" placeholder="Как вас зовут" name='name' required>
+								<input type="tel" class="tel" placeholder="Ваш номер телефона" name='tel' required>
+								<input class="date" type="date" name="date" required>
+								<input class="submit" type="submit" value="ЗАПИСАТЬСЯ НА ПРИЕМ">
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!--Наши приемущества-->
+				<div class="container advantages" >
+					<div class="row">
+						<div class="advantage col-sm-6 col-md-3 odd" >
+							<h3>Профессионализм</h3>
+							<div class="advantage_image"><img src="images/teeth/tooth1.png" alt=""></div>
+							<p>Профессиональный и индивидуальный подход является одним из главных приоритетов для нас.</p>
+						</div>
+						<div class="advantage col-sm-6 col-md-3 even">
+							<h3>Надежность</h3>
+							<div class="advantage_image"><img src="images/teeth/tooth2.png" alt=""></div>
+							<p>Добросовестная и надежная работа является основой для удовлетворенности наших клиентовю</p>
+						</div>
+						<div class="advantage col-sm-6 col-md-3 odd">
+							<h3>Удобные цены</h3>
+							<div class="advantage_image"><img src="images/teeth/tooth3.png" alt=""></div>
+							<p>Мы внимательно относимся к вопросу ценовой политики.</p>
+						</div>
+						<div class="advantage col-sm-6 col-md-3 even">
+							<h3>Приятная обстановка</h3>
+							<div class="advantage_image"><img src="images/teeth/tooth4.png" alt=""></div>
+							<p>В нашей приятной и уютной обстановке вы можете легко забыть, что посещаете стоматолога.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav class="main_nav">
+			<div id="sticky" class="sticky-element page-scroll">
+		    	<div class="sticky-anchor"></div>
+		   		 <div class="sticky-content">
+					<div class="nav_content">
+						<div class="container col-md-12">
+							<div class="row">
+							
+							      <ul>
+									<li class="nav_about col-md-2"><a href="#about">О клинике</a></li>
+									<li class="nav_portfolio col-md-2"><a href="#services">Услуги и цены</a></li>
+									<li class="nav_services col-md-2"><a href="#specialists">Специалисты</a></li>
+									<li class="nav_contact col-md-2"><a href="#feedback">Отзывы</a></li>
+									<li class="nav_contact col-md-2"><a href="#contact">Контакты</a></li>
+								</ul>
+					    	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="services">
+			<h1 id="services">Услуги и цены</h1>
+			<container>
+				<row>
+					<div class="col-sm-6 col-md-3 service odd" >
+						<img src="images/services/1.png" alt="">
+						<div class="service-content">
+							<h3>Эстетическая реставрация зубов</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 service even">
+						<img src="images/services/2.png" alt="">
+						<div class="service-content">
+							<h3>Гигиена полости рта</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 service odd">
+						<img src="images/services/3.png" alt="">
+						<div class="service-content">
+							<h3>Отбеливание зубов</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 service even">
+						<img src="images/services/4.png" alt="">
+						<div class="service-content">
+							<h3 class="long-text">Компьютерная рентгенодиагностика</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+				</row>
+			</container>
+			<container>
+				<row>
+					<div class="col-sm-6 service odd col-md-3">
+						<img src="images/services/5.png" alt="">
+						<div class="service-content">
+							<h3>Детская стоматология</h3>
+							<p>от 0000руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 service even col-md-3">
+						<img src="images/services/6.png" alt="">
+						<div class="service-content">
+							<h3>Хирургическая стоматология</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 service odd col-md-3">
+						<img src="images/services/7.png" alt="">
+						<div class="service-content">
+							<h3>Пародонтология</h3>
+							<p>от 0000 руб.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 service even col-md-3">
+						<img class="download" src="images/services/8.png" alt="">
+						<div class="service-content"><h3>Скачать прайс</h3>
+						</div>
+					</div>
+				</row>
+			</container>
+
+		</div>
+		<div class="our-team" id="specialists">
+			<h1>Наши специалисты</h1>
+			<container>
+				<div class="row spec">
+					<div class="doctor col-md-6 not-relative">
+
+					<!-- Доктор 1 -->
+						<div class="doctor-content">
+							<h2>Бачурина Анна Александровна</h2>
+							<p>врач-стоматолог</p>
+							<div class="doctor-info" id="doctor-info">
+								<img src="images/doctors/1.jpg" alt="">
+								<p>	Когда вкладываешь в дело душу, хочется, чтобы люди ценили это и уходили от тебя с улыбкой.</p>
+								<p>	И возвращались с улыбкой. Наверное, это и есть наша главная цель: хочется подарить каждому человеку немного счастья в этой безумной жизни.</p>
+								<p class="last">	Здоровье - это счастье человека.</p>
+								<div class="buttons">
+									<a href="javascript://" onclick="$('#qualification').slideToggle('slow');$('#sertificats').slideToggle('slow');$('#roll-up').slideToggle('slow');"><div class="button left">Квалификация</div></a>
+									<a href="javascript://"><div class="button" onclick="$('#qualification').slideToggle('slow');$('#sertificats').slideToggle('slow');$('#roll-up').slideToggle('slow');">Сертификаты</div></a>
+									
+								</div>
+							</div>
+							<!-- Квалификация 1 -->
+							<ul id="qualification" class="clearfix">
+								<li>Самарский Государственный медицинский университет 2003-2008г.Специальность: Стоматология.</li>
+								<li>Клиническая интернатура по специальности «Стоматология общей практики» НОУВПО Самарский медицинский институт «РЕАВИЗ»,2008-2009г.</li>
+								<li>Участие в конференции «Рутинная стоматология не значит рутинная эстетика» компания 3М ЕSPE 2009</li>
+								<li>Участие в конференции конференции по эстетической стоматологии и эндодонтии лекция и мастер –класс профессор Марко Мартиньони ,Юнидент Поволжье, 2010</li>
+								<li>Тренинг «Сердечно-лёгочная реанимация»,с практическим занятием 4 часа, в Самарском областном центре медицины катастроф,2010</li>
+								<li>Семинар «Технические аспекты перелечивания» Диалог Дентал депо ,лектор М.Соломонов,2010</li>
+								<li>Семинар «Оптимизация инструментальной обработки корневых каналов» Рокада мед (STI dent),лектор Шорина,Самара,2015</li>
+								<li>Теоретический курс «Реставрация фронтальной группы зубов. Методики эстетическойреабилитации» Рокада мед(Denta-vias),лектор Василиадис Роман, Самара,2015</li>
+								<li>Курс «Трехмерная радиодиагностика при травме челюстно-лицевой области»Биодент,лектор Рогацкин Д.В.Самара,2015</li>
+								<li>Практический семинар «Восстановление анатомической формы передней и боковой группы зубов в эстетических реставрациях» Студия Эстетической Стоматологии Антона Ветчинкина, Москва,2015</li>
+								<li>Практический курс «Клинические аспекты каждодневной эндонтии» Медикал Консалтинг Групп,лектор Соломонов М.Москва,2015</li>
+								<li>Курс «Сложная анатомия корневых каналов и эндодонтический доступ. Пропущенные каналы, алгоритм обнаружения.Минимально инвазивное препарирование коронки.Анатомия апикальной трети».лектор Болячин А.Казань,2015</li>
+							</ul>
+							<!-- Сертификаты1 -->
+							<container id="sertificats">
+								<row>
+									<!-- Сертификат№1 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal1">
+											<span></span> <!-- Для появления лупы при наведении -->
+											<img src="images/sertificats/1-little.jpg" alt="">
+										</a>
+									</div>
+
+									<div id="openModal1" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/1.jpg" alt="">
+											</div>
+										</div>
+									</div>	
+
+									<!-- Сертификат№2 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal2">
+											<span></span>
+											<img src="images/sertificats/2-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal2" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/2.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№3 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal3">
+											<span></span>
+											<img src="images/sertificats/3-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal3" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/3.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№4 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal4">
+											<span></span>
+											<img src="images/sertificats/4-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal4" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/4.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№5 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal5">
+											<span></span>
+											<img src="images/sertificats/5-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal5" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/5.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№6 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal6">
+											<span></span>
+											<img src="images/sertificats/6-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal6" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/6.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№7 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery not-relative">
+										<a href="#openModal7" class="little">
+											<span></span>
+											<img src="images/sertificats/7-little.jpg" alt="">
+										</a>
+										<div id="openModal7" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/7.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<!-- Сертификат№9 -->
+										<a href="#openModal9" class="little down">
+											<span></span>
+											<img src="images/sertificats/9-little.jpg" alt="">
+										</a>
+										<div id="openModal9" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/9.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№8 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery not-relative">
+										<a href="#openModal8" class="little">
+											<span></span>
+											<img src="images/sertificats/8-little.jpg" alt="">
+										</a>
+										<div id="openModal8" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/8.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<!-- Сертификат№10 -->
+										<a href="#openModal10" class="little down">
+											<span></span>
+											<img src="images/sertificats/10-little.jpg" alt="">
+										</a>
+										<div id="openModal10" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/10.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+								</row>
+							</container>
+							<a class="roll-up" id="roll-up" href="#doctor-info" onclick="$('#qualification').hide('slow');$('#sertificats').hide('slow');$('#roll-up').hide('slow');">Свернуть полную информацию</a>
+						</div>
+					</div>
+				
+					<div class="doctor col-md-6 not-relative">
+						<div class="doctor-content">
+							<h2>Бачурина Анна Александровна</h2>
+							<p>врач-стоматолог</p>
+							<div class="doctor-info" id="doctor-info2">
+								<img src="images/doctors/2.jpg" alt="">
+							<p>	Когда вкладываешь в дело душу, хочется, чтобы люди ценили это и уходили от тебя с улыбкой.</p>
+								<p>	И возвращались с улыбкой. Наверное, это и есть наша главная цель: хочется подарить каждому человеку немного счастья в этой безумной жизни.</p>
+								<p class="last">	Здоровье - это счастье человека.</p>
+								<div class="buttons">
+									<a href="javascript://" onclick="$('#qualification2').slideToggle('slow');$('#sertificats2').slideToggle('slow');$('#roll-up2').slideToggle('slow');"><div class="button left">Квалификация</div></a>
+									<a href="javascript://"><div class="button" onclick="$('#qualification2').slideToggle('slow');$('#sertificats2').slideToggle('slow');$('#roll-up2').slideToggle('slow');">Сертификаты</div></a>
+								</div>
+							</div>
+							<ul id="qualification2" class="clearfix">
+								<li>Самарский Государственный медицинский университет 2003-2008г.Специальность: Стоматология.</li>
+								<li>Клиническая интернатура по специальности «Стоматология общей практики» НОУВПО Самарский медицинский институт «РЕАВИЗ»,2008-2009г.</li>
+								<li>Участие в конференции «Рутинная стоматология не значит рутинная эстетика» компания 3М ЕSPE 2009</li>
+								<li>Участие в конференции конференции по эстетической стоматологии и эндодонтии лекция и мастер –класс профессор Марко Мартиньони ,Юнидент Поволжье, 2010</li>
+								<li>Тренинг «Сердечно-лёгочная реанимация»,с практическим занятием 4 часа, в Самарском областном центре медицины катастроф,2010</li>
+								<li>Семинар «Технические аспекты перелечивания» Диалог Дентал депо ,лектор М.Соломонов,2010</li>
+								<li>Семинар «Оптимизация инструментальной обработки корневых каналов» Рокада мед (STI dent),лектор Шорина,Самара,2015</li>
+								<li>Теоретический курс «Реставрация фронтальной группы зубов. Методики эстетическойреабилитации» Рокада мед(Denta-vias),лектор Василиадис Роман, Самара,2015</li>
+								<li>Курс «Трехмерная радиодиагностика при травме челюстно-лицевой области»Биодент,лектор Рогацкин Д.В.Самара,2015</li>
+								<li>Практический семинар «Восстановление анатомической формы передней и боковой группы зубов в эстетических реставрациях» Студия Эстетической Стоматологии Антона Ветчинкина, Москва,2015</li>
+								<li>Практический курс «Клинические аспекты каждодневной эндонтии» Медикал Консалтинг Групп,лектор Соломонов М.Москва,2015</li>
+								<li>Курс «Сложная анатомия корневых каналов и эндодонтический доступ. Пропущенные каналы, алгоритм обнаружения.Минимально инвазивное препарирование коронки.Анатомия апикальной трети».лектор Болячин А.Казань,2015</li>
+							</ul>
+							<!-- Сертификаты2 -->
+							<container id="sertificats2">
+								<row>
+									<!-- Сертификат№1 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal12">
+											<span></span> <!-- Для появления лупы при наведении -->
+											<img src="images/sertificats/1-little.jpg" alt="">
+										</a>
+									</div>
+
+									<div id="openModal12" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/1.jpg" alt="">
+											</div>
+										</div>
+									</div>	
+
+									<!-- Сертификат№2 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal22">
+											<span></span>
+											<img src="images/sertificats/2-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal22" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/2.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№3 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal32">
+											<span></span>
+											<img src="images/sertificats/3-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal32" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/3.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№4 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal42">
+											<span></span>
+											<img src="images/sertificats/4-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal42" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/4.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№5 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="#openModal52">
+											<span></span>
+											<img src="images/sertificats/5-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal52" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/5.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№6 -->
+									<div class=" col-xs-4 col-sm-2 col-md-3 gallery">
+										<a href="openModal62">
+											<span></span>
+											<img src="images/sertificats/6-little.jpg" alt="">
+										</a>
+									</div>
+									<div id="openModal62" class="modalDialog">
+										<div>
+											<a href="#close" title="Закрыть" class="close">X</a>
+											<div class="full_image">
+												<img src="images/sertificats/1.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№7 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery not-relative">
+										<a href="#openModal72" class="little">
+											<span></span>
+											<img src="images/sertificats/7-little.jpg" alt="">
+										</a>
+										<div id="openModal72" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/7.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<!-- Сертификат№9 -->
+										<a href="#openModal92" class="little down">
+											<span></span>
+											<img src="images/sertificats/9-little.jpg" alt="">
+										</a>
+										<div id="openModal92" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/9.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Сертификат№8 -->
+									<div class="col-xs-4 col-sm-2 col-md-3 gallery not-relative">
+										<a href="#openModal82" class="little">
+											<span></span>
+											<img src="images/sertificats/8-little.jpg" alt="">
+										</a>
+										<div id="openModal82" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/8.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<!-- Сертификат№10 -->
+										<a href="#openModal102" class="little down">
+											<span></span>
+											<img src="images/sertificats/10-little.jpg" alt="">
+										</a>
+										<div id="openModal102" class="modalDialog">
+											<div>
+												<a href="#close" title="Закрыть" class="close">X</a>
+												<div class="full_image">
+													<img src="images/sertificats/10.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+								</row>
+							</container>
+							<a class="roll-up" id="roll-up2" href="#doctor-info2" onclick="$('#qualification2').hide('slow');$('#sertificats2').hide('slow');$('#roll-up2').hide('slow');">Свернуть полную информацию</a>
+						</div>
+
+					</div>
+				</div>
+			</container>
+		</div>
+		<div class="about" id="about">
+			<h1>О клинике</h1>
+			<div class="information"><p>Клиника имеет весь спектр лечебных и профилактических услуг, располагает всеми необходимыми ресурсами: высокотехнологичным оборудованием, компьютерной диагностикой (визиография), программой для введения медицинской документации, высочайшим уровнем безопасности стерилизационного процесса, соответствующими мировым стандартам для четкой организации и успешного введения лечебной деятельности.
+	
+			</p>
+			<p>Наличие серьезной технической базы, использование известных брендов стоматологии,
+комплексный подход и высокая технологичность обуславливает высокое качество лечения.
+			</p>
+			<p>Взгляд на человека в целом, профессионализм в сочетании с отзывчивостью, сопереживанием и искренней заинтересованностью в положительном результате совместной работы считаются здесь залогом успеха.
+			</p>
+			<p>Современный домашний, уютный интерьер, внимательный и душевный персонал, заставляет забыть страхи перед лечением, монитор ,фиксированный над стоматологическим креслом , будет транслировать Ваш любимый фильм и отвлечет от неприятных ожиданий, а чашечка ароматного кофе позволит почувствовать себя в гостях у старых друзей.</p>
+			</div>
+
+			<div class="container">
+				<row>
+					<div class="autoplay">
+						<div class=""><img src="images/about/1.jpg" alt=""></div>
+						<div class=""><img src="images/about/2.jpg" alt=""></div>
+						<div class=""><img src="images/about/3.jpg" alt=""></div>
+						<div class=""><img src="images/about/3.jpg" alt=""></div>
+					</div>
+				</row>
+				<row>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l1"><span></span><img src="images/license/1.jpg" alt=""></a></div>
+					
+					<div id="openModal-l1" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/1-big.jpg" alt="">
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l2"><span></span><img src="images/license/2.jpg" alt=""></a></div>
+					<div id="openModal-l2" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/2-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l3"><span></span><img src="images/license/3.jpg" alt=""></a></div>
+					<div id="openModal-l3" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/3-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l4"><span></span><img src="images/license/4.jpg" alt=""></a></div>
+					<div id="openModal-l4" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/4-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l5"><span></span><img src="images/license/5.jpg" alt=""></a></div>
+					<div id="openModal-l5" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/5-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l6"><span></span><img src="images/license/6.jpg" alt=""></a></div>
+					<div id="openModal-l6" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/6-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l7"><span></span><img src="images/license/7.jpg" alt=""></a></div>
+					<div id="openModal-l7" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/7-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-1 gallery1"><a href="#openModal-l8"><span></span><img src="images/license/8.jpg" alt=""></a></div>
+					<div id="openModal-l8" class="modalDialog modalDialog-licence">
+						<div>
+							<a href="#close" title="Закрыть" class="close">X</a>
+							<div class="full_image">
+								<img src="images/license/8-big.jpg" alt="">
+							</div>
+						</div>
+					</div>
+
+				</row>
+			</div>
+		</div>
+		<div class="feedback" id="feedback">
+			<h1>Отзывы</h1>
+			ю
+		</div>
+		<div class="all-contacts">
+			<h1  id="contact">Контакты</h1>
+			<container>
+				<row>
+					<div class="col-md-2 schedule">
+					<div class="wrapper">
+						<h3>График работы</h3>
+						<div class="time">
+							<div class="monday day">пн</div>
+							<div class="tuesday day">вт</div>
+							<div class="wednesday day">ср</div>
+							<div class="thursday day">чт</div>
+							<div class="friday day">пт</div>
+							<div class="saturday day output">сб</div>
+							<div class="sunday day output">вс</div>
+							<div class="bracket"><img src="images/contacts/bracket.png" alt=""></div>
+							<div class="weekdays-time">00.00-00.00</div>
+							<div class="saturday-time">00.00-00.00</div>
+							<div class="sunday-time">выходной</div>
+						</div>
+					</div>
+					</div>
+					<div class="col-md-10">
+						<div class="col-md-3 adress">
+							<h3>Как проехать</h3>
+							<p>г. Самара,<br>
+							ул. Стара-Загора, 160</p>
+						</div>
+						<div class="col-md-3 telephone">
+							<h3>Телефон</h3>
+							<p>8(846)0000000</p>
+						</div>
+						<div class="map col-sx-12"></div>
+					</div>
+				</row>
+				</container>
+
+		</div>
+		
+		<footer class="clearfix">
+			<div class="footer-content">
+				<div class="left">
+					<p class="years">2015-2016 &copy;<br>
+					ООО "Эффект бабочки". Все права защищены</p>
+				</div>
+				<div class="right">
+					<p class="oktobit">Разработка сайтов, видеонаблюдение, аутсорсинг - Октобит</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    
+	    <script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+	    <script type="text/javascript" src="slick/slick.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed-->
+	    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	    <script type="text/javascript">
+	        $(document).ready(function(){
+		    	$('.autoplay').slick({
+		    	  slidesToShow: 3,
+		    	  slidesToScroll: 1,
+		    	  autoplay: true,
+		    	  autoplaySpeed: 2000,
+		    	});
+		    });
+
+	    	
+	    	$(document).ready(function(){
+	    	  $('.single-item').slick({
+	    	  	autoplay: true,
+	    	  });
+	    	});
+	    	var StickyElement = function(node){
+	    	  var doc = $(document), 
+	    	      fixed = false,
+	    	      anchor = node.find('.sticky-anchor'),
+	    	      content = node.find('.sticky-content');
+	    	  
+	    	  var onScroll = function(e){
+	    	    var docTop = doc.scrollTop(),
+	    	        anchorTop = anchor.offset().top;
+	    	    
+	    	    console.log('scroll', docTop, anchorTop);
+	    	    if(docTop > anchorTop){
+	    	      if(!fixed){
+	    	        anchor.height(content.outerHeight());
+	    	        content.addClass('fixed');        
+	    	        fixed = true;
+	    	      }
+	    	    }  else   {
+	    	      if(fixed){
+	    	        anchor.height(0);
+	    	        content.removeClass('fixed'); 
+	    	        fixed = false;
+	    	      }
+	    	    }
+	    	  };
+	    	  
+	    	  $(window).on('scroll', onScroll);
+	    	};
+
+	    	var demo = new StickyElement($('#sticky'));
+	    				
+	    </script>
+</body>
+</html>
